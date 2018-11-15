@@ -7,7 +7,6 @@ body {
 	background-color: #F7F7F7;
 }
 img {
-	border-radius: 50%;
 	position: absolute;
 	top: 1.2vh;
 	left: 2vw;
@@ -20,9 +19,9 @@ img {
 	top: 2vh;
 	left: 6vw;
 	font-size: 4vh;
-	letter-spacing: 0.5vw;
+	letter-spacing: 0.1vw;
 	z-index: 2;
-	color: white;
+	color: black;
 }
 
 #navigation {
@@ -111,12 +110,12 @@ object {
 	width: 4vw;
 	z-index: 2;
 	margin: 0px;
-	bottom: -41vh;
-	left: 3vw;
+	top: -45vh;
+	left: 1vw;
 }
 
 #login {
-	z-index: 3;
+	z-index: 4;
 	color: white;
 	position: absolute;
 	background-color: rgba(0,0,0,0.2);
@@ -128,6 +127,12 @@ object {
 	letter-spacing: 0.2vw;
 	font-size: 1.5vh;
 	color: #034500;
+}
+
+#login {
+	background-color: white;
+	padding: 2vh 4vw;
+	bottom: 6vh;
 }
 
 #login:hover {

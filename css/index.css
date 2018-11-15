@@ -59,6 +59,12 @@ object {
 	height: 100vh;
 }
 
+#login {
+	background-color: white;
+	padding: 2vh 4vw;
+	bottom: 6vh;
+}
+
 #shade {
 	width: 100vw;
 	height: 18vh;
@@ -66,4 +72,15 @@ object {
 	background-color: black;
 	opacity: 0.5;
 	bottom: 0px;
+}
+
+div#container {
+	position: absolute;
+	width: 40vw;
+	padding-top: 15vh;
+	right: 5vw;
+	font-size: 2.5vh;
+	padding-left: 1vw;
+	border-bottom: 0.3vh solid black;
+	border-left: 0.5vw solid black;
 }

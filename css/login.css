@@ -27,8 +27,11 @@ input[type=text]:focus, input[type=password]:focus {
 label[for="employee"] {
 	position: absolute;
 	top: 15vh;
-	right: 15vw;
+	right: 11vw;
 	letter-spacing: 1vh;
+	border-bottom: 0.3vh solid white;
+	padding: 0 5vw;
+	padding-bottom: 1vh;
 	font-size: 3vh;
 }
 
@@ -83,7 +86,6 @@ button[type="submit"]:hover {
 }
 
 .modal-content {
-	border: 0.2vh solid white;
 	margin: 2vh auto 2vw auto;
 	width: 30vw;
 }
@@ -97,4 +99,9 @@ button[type="submit"]:hover {
 	width: 100vw;
 	position: absolute;
 	height: auto;
+}
+
+#companyName {
+	color: white;
+	opacity: 0.5;
 }
