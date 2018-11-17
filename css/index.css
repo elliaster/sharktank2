@@ -76,8 +76,9 @@ object {
 
 div#container {
 	position: absolute;
+	margin-top: 15vh;
+	padding-top: 5vh;
 	width: 40vw;
-	padding-top: 15vh;
 	right: 5vw;
 	font-size: 2.5vh;
 	padding-left: 1vw;
